@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { useNavigate } from "react-router-dom";
@@ -97,8 +98,7 @@ const AuthPage = () => {
 
           <Button
             type="submit"
-            className="w-full bg-gradient-to-r from-modern-yellow to-modern-yellow-accent text-modern-blue-dark hover:from-modern-yellow-accent hover:to-modern-yellow font-bold py-3 rounded-xl shadow-lg transform transition-all duration-200 hover:scale-105ayette
-            hover:shadow-xl disabled:hover:scale-100"
+            className="w-full bg-gradient-to-r from-modern-yellow to-modern-yellow-accent text-modern-blue-dark hover:from-modern-yellow-accent hover:to-modern-yellow font-bold py-3 rounded-xl shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl disabled:hover:scale-100"
             disabled={submitting}
           >
             <div className="flex items-center justify-center gap-2">
